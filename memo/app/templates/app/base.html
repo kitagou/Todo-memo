@@ -1,0 +1,20 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>メモ</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'app/css/style.css' %}">
+</head>
+
+<body>
+  <h1>メモアプリの試作</h1>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+  
+</body>
+</html>
+

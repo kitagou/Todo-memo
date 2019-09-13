@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  background:none;
+  border:0;
+  cursor: pointer;
+  color: aqua
+}
+
+form{
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 0;
+  padding: 10px;
+  font-size: 40px;
+  background-color: black;
+  color:white;
+  text-align: center;
+  box-shadow: 0 1px 8px gray;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.btn{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: blue;
+  color: white;
+  border-bottom: solid 4px yellowgreen;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.container{
+  width: 70%;
+  margin: auto;
+}
+
+.memo-title {
+  display: block;
+  border-bottom: 1px solid red;
+  padding: 20px;
+  font-size: 20px;
+  color: gold;
+  text-decoration: none;
+}
+
+.memo-title:hover{
+  background-color:royalblue;
+}
+
+.updated_datetime{
+  float: right;
+}
